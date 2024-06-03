@@ -1,0 +1,340 @@
+.rootRadar {
+  position: relative;
+  border-radius: 16px;
+  box-shadow: 0px 4px 8px 0px #0000000d;
+  background: #ffffff;
+  padding: 0px 30px 16px 17px;
+  width: 834px;
+  height: 741px;
+  overflow: hidden;
+  line-height: normal;
+  white-space: normal;
+  color: #000000;
+  font-weight: 400;
+  font-family: Inter;
+
+  .group68 {
+    display: flex;
+    position: absolute;
+    top: 51px;
+    left: 23px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 0px 0px 14px;
+    width: 814px;
+    text-align: left;
+    font-size: 12px;
+
+    & > .block4441 {
+      margin: 327px 0px 0px;
+      width: 84px;
+      height: 18px;
+      vertical-align: top;
+
+      .block4441 {
+        color: var(--grey, #939393);
+      }
+
+      .block44411 {
+        color: #1c448c;
+        font-weight: 700;
+      }
+
+      .block44412 {
+        color: var(--grey, #939393);
+        font-weight: 700;
+      }
+
+      .block44413 {
+        color: #4da87f;
+        font-weight: 700;
+      }
+    }
+
+    & > .autoWrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      & > .score11090 {
+        margin: 0px 0px 0px 260px;
+        width: 97px;
+        height: 18px;
+        vertical-align: top;
+
+        .score11090 {
+          color: var(--grey, #939393);
+        }
+
+        .score110902 {
+          color: #4da87f;
+          font-weight: 700;
+        }
+
+        .score110901 {
+          color: #1d428a;
+          font-weight: 700;
+        }
+      }
+
+      .autoWrapper {
+        position: relative;
+        margin: 8px 0px 0px;
+        width: 617px;
+        height: 618px;
+
+        & > .threePointShot1911 {
+          position: absolute;
+          top: 547px;
+          left: 1px;
+          width: 139px;
+          height: 19px;
+          vertical-align: top;
+
+          .threePointShot1911 {
+            color: var(--grey, #939393);
+          }
+
+          .threePointShot19111 {
+            color: #1c448c;
+            font-weight: 700;
+          }
+
+          .threePointShot19112 {
+            color: var(--grey, #939393);
+            font-weight: 700;
+          }
+
+          .threePointShot19113 {
+            color: #4da87f;
+            font-weight: 700;
+          }
+        }
+
+        & > .fieldGoalPercentage4 {
+          position: absolute;
+          top: 66px;
+          left: -111px;
+          width: 222px;
+          height: 18px;
+          vertical-align: top;
+          font-weight: 700;
+
+          .fieldGoalPercentage4 {
+            color: var(--grey, #939393);
+          }
+
+          .fieldGoalPercentage41 {
+            color: #1c448c;
+          }
+
+          .fieldGoalPercentage42 {
+            color: var(--grey, #939393);
+          }
+
+          .fieldGoalPercentage43 {
+            color: #4da87f;
+          }
+        }
+
+        & > .steal138 {
+          position: absolute;
+          top: 546px;
+          left: 526px;
+          width: 82px;
+          height: 13px;
+          vertical-align: top;
+          font-weight: 700;
+
+          .steal138 {
+            color: var(--grey, #939393);
+          }
+
+          .steal1381 {
+            color: #1c448c;
+          }
+
+          .steal1382 {
+            color: var(--grey, #939393);
+          }
+
+          .steal1383 {
+            color: #4da87f;
+          }
+        }
+
+        & > .assist2727 {
+          position: absolute;
+          top: 66px;
+          right: -13px;
+          width: 104px;
+          height: 15px;
+          vertical-align: top;
+          font-weight: 700;
+
+          .assist27271 {
+            color: #1c448c;
+          }
+
+          .assist27273 {
+            color: #4da87f;
+          }
+
+          .assist2727 {
+            color: #b7b7b7;
+          }
+
+          .assist27272 {
+          }
+        }
+
+        .union {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 617px;
+          height: 618px;
+        }
+      }
+
+      & > .freeThrowPercentage1 {
+        margin: 16px 0px 0px 231px;
+        width: 225px;
+        height: 15px;
+        vertical-align: top;
+        font-weight: 700;
+
+        .freeThrowPercentage1 {
+          color: var(--grey, #939393);
+        }
+
+        .freeThrowPercentage11 {
+          color: #1c448c;
+        }
+
+        .freeThrowPercentage12 {
+          color: var(--grey, #939393);
+        }
+
+        .freeThrowPercentage13 {
+          color: #4da87f;
+        }
+      }
+    }
+
+    & > .foul2016 {
+      margin: 326px 0px 0px;
+      width: 87px;
+      height: 18px;
+      vertical-align: top;
+      font-weight: 700;
+
+      .foul2016 {
+        color: var(--grey, #939393);
+      }
+
+      .foul20161 {
+        color: #1c448c;
+      }
+
+      .foul20162 {
+        color: var(--grey, #939393);
+      }
+
+      .foul20163 {
+        color: #4da87f;
+      }
+    }
+  }
+
+  .vector72 {
+    position: absolute;
+    top: 82px;
+    left: 133px;
+    width: 617px;
+    height: 613px;
+  }
+
+  .vector107 {
+    position: absolute;
+    top: 113px;
+    left: 166px;
+    width: 529px;
+    height: 532px;
+  }
+
+  .group20 {
+    display: flex;
+    position: absolute;
+    top: 711px;
+    left: 17px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 97px;
+    height: 30px;
+    text-align: left;
+    font-family: Manrope;
+    font-size: 16px;
+
+    .vector {
+      width: 30px;
+      height: 30px;
+    }
+
+    .warriors {
+      width: 67px;
+      height: 20px;
+      vertical-align: top;
+    }
+  }
+
+  .group69 {
+    display: flex;
+    position: absolute;
+    top: 711px;
+    left: 134px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 97px;
+    height: 30px;
+    text-align: left;
+    letter-spacing: -0.16px;
+    font-family: Manrope;
+    font-size: 16px;
+
+    .vector {
+      width: 30px;
+      height: 30px;
+    }
+
+    .celtics {
+      width: 67px;
+      height: 20px;
+      vertical-align: top;
+    }
+  }
+
+  & > .nBAFinalsGame6On2021 {
+    position: absolute;
+    top: 0;
+    left: 182px;
+    width: 518px;
+    height: 54px;
+    vertical-align: top;
+    text-align: center;
+    letter-spacing: -0.2px;
+    font-size: 20px;
+    font-family: Manrope;
+    font-weight: 700;
+
+    .nBAFinalsGame6On2021,
+    .nBAFinalsGame6On20212 {
+    }
+
+    .nBAFinalsGame6On20211 {
+    }
+  }
+}
