@@ -1,5 +1,6 @@
 import PersonalRanking from "../components/PersonalRanking";
 import RankingR from "../components/RankingR";
+import RankingA from "../components/RankingA";
 
 function Tab() {
     return (
@@ -12,7 +13,7 @@ function Tab() {
             <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box"><RankingR/></div>
 
             <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Assist"/>
-            <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box">Tab content 3</div>
+            <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box"><RankingA/></div>
          </div>
         </div>
     )
