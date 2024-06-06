@@ -24,9 +24,9 @@ function Navbar(){
                     <ul className="menu menu-horizontal px-1">
                         <li><a href={'/ranking'}>Ranking</a></li>
                         <li>
-                            <a>Item 2</a>
+                            <a href={`/`}>Schedule</a>
                         </li>
-                        <li><a href={`/personalRanking`}>Item 3</a></li>
+                        <li><a href={`/personalRanking`}>Personal Ranking</a></li>
                     </ul>
                 </div>
                 <div className="navbar-end">

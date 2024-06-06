@@ -1,9 +1,11 @@
 import React from "react";
 
 import styles from './index.module.scss';
+import GameData from "../components/GameData";
 
 const DetialPages = () => {
     return (
+        <div className="flex pt-5">
         <div className={styles.rootRadar}>
             <div className={styles.group68}>
                 <p className={styles.block4441}>
@@ -20,7 +22,7 @@ const DetialPages = () => {
                     </p>
                     <div className={styles.autoWrapper}>
                         <img
-                            src="https://p26-semi-sign.byteimg.com/tos-cn-i-acvclvrq33/1026d58ebbea40e8a84e3a94b5491f70.svg?rk3s=521bdb00&x-expires=1717459568&x-signature=lNd%2Bl0h12MkysyOmLHYfyOnc%2Fbk%3D"
+                            src="https://p3-semi-sign.byteimg.com/tos-cn-i-acvclvrq33/753544ffb993494e97c7ebe5aacdf93d.svg?rk3s=521bdb00&x-expires=1717499044&x-signature=rVTk3fFBskZdHYLBa41IYbSmucw%3D"
                             className={styles.union}
                         />
                         <p className={styles.threePointShot1911}>
@@ -67,23 +69,23 @@ const DetialPages = () => {
                 </p>
             </div>
             <img
-                src="https://p26-semi-sign.byteimg.com/tos-cn-i-acvclvrq33/8d56db1833ab4acb853f76955c2f0daf.svg?rk3s=521bdb00&x-expires=1717459568&x-signature=MTaveY3iZlwVpDjhCLEmbzaJd7k%3D"
+                src="https://p6-semi-sign.byteimg.com/tos-cn-i-acvclvrq33/2fb41ed78e5149c18558f05d15953172.svg?rk3s=521bdb00&x-expires=1717499044&x-signature=S3QMiyIxzRI4S1CJEaCMwwZxHvg%3D"
                 className={styles.vector72}
             />
             <img
-                src="https://p6-semi-sign.byteimg.com/tos-cn-i-acvclvrq33/1fcf0acd5e2c44a69c949b76fd5ee621.svg?rk3s=521bdb00&x-expires=1717459568&x-signature=IRQApk8oIC2n%2FTb5u1PahEcFSVk%3D"
+                src="https://p6-semi-sign.byteimg.com/tos-cn-i-acvclvrq33/2e10b2a53df74a2d9c578dc3863e7934.svg?rk3s=521bdb00&x-expires=1717499044&x-signature=jmP94kwLIfOeqKlS%2BQD5FdrP53g%3D"
                 className={styles.vector107}
             />
             <div className={styles.group20}>
                 <img
-                    src="https://p6-semi-sign.byteimg.com/tos-cn-i-acvclvrq33/df05e990396a4ea1b9b89bf7d8ef261a.svg?rk3s=521bdb00&x-expires=1717459568&x-signature=NPG%2BuflXyShzEKymDreT8bLQ6r8%3D"
+                    src="https://p26-semi-sign.byteimg.com/tos-cn-i-acvclvrq33/9aa20d57aa194c23bf438ccc901d5290.svg?rk3s=521bdb00&x-expires=1717499044&x-signature=7jSqrW1TK9Eo5pIaOf6TenT3EuI%3D"
                     className={styles.vector}
                 />
                 <p className={styles.warriors}>Warriors</p>
             </div>
             <div className={styles.group69}>
                 <img
-                    src="https://p26-semi-sign.byteimg.com/tos-cn-i-acvclvrq33/8875eabb0cbb4b15b24e10fc721883b4.svg?rk3s=521bdb00&x-expires=1717459568&x-signature=Lm1U4nSd03Wf%2FLofDYn%2F8IDnRfM%3D"
+                    src="https://p9-semi-sign.byteimg.com/tos-cn-i-acvclvrq33/599891d6a4d44b16b7f49db3724e1961.svg?rk3s=521bdb00&x-expires=1717499044&x-signature=IhFfwWRI4OQg9Q86LNkmDyYxPfw%3D"
                     className={styles.vector}
                 />
                 <p className={styles.celtics}>Celtics</p>
@@ -99,6 +101,8 @@ const DetialPages = () => {
                 <span className={styles.nBAFinalsGame6On20212}>Warriors vs. Celtics</span>
             </p>
         </div>
+        <GameData></GameData>
+    </div>
     );
 }
 

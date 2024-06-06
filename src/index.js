@@ -9,7 +9,8 @@ import {
 } from "react-router-dom";
 import DetialPages from "./pages/DetialPages";
 import Ranking from "./pages/Ranking";
-import PersonalRanking from "./pages/PersonalRanking";
+import PersonalRanking from "./components/PersonalRanking";
+import Tab from "./pages/Tab";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
     },
     {
         path: "/personalRanking",
-        element: <PersonalRanking/>,
+        element: <Tab/>,
     },
 ]);
 
