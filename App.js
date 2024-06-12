@@ -7,6 +7,7 @@ function App() {
     const handleMouseLeave = (id) => { setHoveredDivs((prev) => ({ ...prev, [id]: false })); };
     return (
       <>
+
           <div id="container">
               <div className="playoff"> <Navbar></Navbar>
                   <h2>2021-2022 NBA Playoffs Match-up Chart</h2>
