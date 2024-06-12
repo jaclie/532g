@@ -33,7 +33,7 @@ const RankingR = () => {
         return null;
     };
     return <div className="flex flex-col items-center">
-        <h1 className="text-3xl pt-3">Player Ranking</h1>
+        <h1 className="text-3xl pt-3">Play Offs Player Ranking</h1>
         <BarChart
             width={1700}
             height={800}

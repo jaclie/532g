@@ -37,7 +37,8 @@ function GameData(){
     const off = gradientOffset();
     return(
         <div className="flex flex-col items-center">
-            <h1 className="text-3xl pt-3">Score trend</h1>
+            <h1 className="text-3xl pt-3">NBA Finals  game 6 on 2021-2022(day6.17)</h1>
+                <h1 className="text-3xl pt-3">Warriors vs. Celtics</h1>
             <AreaChart
                 width={800}
                 height={700}
